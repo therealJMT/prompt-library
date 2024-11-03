@@ -6,7 +6,7 @@ TARGET SPECIFICATIONS:
 - Length: Approximately 3000 words
 - Audience: "{{AUDIENCE}}" with the expected prerequisite knowledge considering the specific audience "{{AUDIENCE}}"
 - Style: professional yet friendly with real world examples
-- Format: step by step with clear section breaks in markdown format
+- Format: step by step with clear section breaks in markdown format, only put markdown format into code blocks when necessary try to use it naturally
 
 CONTENT REQUIREMENTS:
 1. Begin with a compelling introduction that explains why "{{TOPIC}}" matters in the context "{{CONTEXT}}" for audience "{{AUDIENCE}}" and what prerequisite knowledge is expected of audience "{{AUDIENCE}}"
@@ -25,7 +25,7 @@ Readers should be able to:
 
 STRUCTURAL ELEMENTS:
 - Use headers and subheaders for easy navigation
-- Include relevant mermaid.js diagrams and charts where helpful
+- Include relevant mermaid.js diagrams and charts where helpful, always put the word mermaid and the appropriate graph type in the code block when using mermaid diagrams so it get's correctly printed in applications like obsidian. Always prefer a TB Top to Bottom graph instead of a LR left to right graph. Try to keep the diagrams simple so they can easily be recognized even on smaller displays. Use appropriate colors when useful. 
 - Provide real world examples for each major concept
 - End with key takeaways and next steps
 
